@@ -11,4 +11,8 @@ class School
     @roster[grade] = [] unless @roster.key?(grade)
     @roster[grade] << name
   end
+  
+  def grade(grade)
+    @roster[grade]
+  end
 end
