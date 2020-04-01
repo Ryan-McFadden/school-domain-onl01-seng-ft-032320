@@ -17,6 +17,6 @@ class School
   end
   
   def sort
-    @roster.sort
+    @roster.each_pair.sort
   end
 end
